@@ -1,5 +1,8 @@
+import { redirect } from "next/navigation";
+
 const HomePage = () => {
-  return ( <h1>Hello world</h1> );
+  // Redirecionar para o restaurante FSW Donalds
+  redirect("/fsw-donalds");
 }
- 
+
 export default HomePage;
